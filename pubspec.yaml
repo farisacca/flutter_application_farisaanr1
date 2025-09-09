@@ -18,6 +18,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - images/smk-ypc.png
-  - images/WhatsApp Image 2025-08-12 at 11.09.18 AM.jpeg
-  
+    - images/smk-ypc.png
+    - images/WhatsApp Image 2025-08-12 at 11.09.18 AM.jpeg
+    - images/vm1.jpg
+    - images/vm2.jpg
+    - images/vm3.jpg
