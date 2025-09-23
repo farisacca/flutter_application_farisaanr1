@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_farisaanr/layout_mandiri.dart';
 
-import 'package:flutter_application_farisaanr/mandiri_listitem.dart';
+// import 'package:flutter_application_farisaanr/mandiri.dart';
+// import 'package:flutter_application_farisaanr/profil.dart';
 
 
 void main() {
@@ -14,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "App Flutter",
-      home: MandiriListitem()
+      home: LayoutMandiri()
     );
   }
 }

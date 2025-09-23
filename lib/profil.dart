@@ -30,8 +30,36 @@ class MyProfil extends StatelessWidget {
 
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [],
-          )
+            children: [
+              ElevatedButton.icon(onPressed: () {},
+               icon: const Icon (Icons.call),
+               label: const Text('Call'),
+               style: ElevatedButton.styleFrom(
+                 backgroundColor: Colors.blueAccent,
+                 foregroundColor: Colors.white,
+                ),
+              ),
+              const SizedBox(width: 10),
+              ElevatedButton.icon(onPressed: () {},
+               icon: const Icon (Icons.route),
+               label: const Text ('Route'),
+               style: ElevatedButton.styleFrom(
+                 backgroundColor: Colors.blueAccent,
+                 foregroundColor: Colors.white,
+                ),
+              ),
+              const SizedBox(width: 10),
+              ElevatedButton.icon(onPressed: () {},
+               icon: const Icon (Icons.share),
+               label: const Text('Share'),
+               style: ElevatedButton.styleFrom(
+                 backgroundColor: Colors.blueAccent,
+                 foregroundColor: Colors.white,
+                ),
+              ),
+
+            ],
+          ),
 
 
         ],
